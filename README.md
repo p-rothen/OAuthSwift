@@ -222,7 +222,7 @@ To change this behavior you must set an `OAuthSwiftURLHandlerType`, simple proto
 ```swift
 oauthswift.authorizeURLHandler = ..
 ```
-For instance you can embed a web view into your application by providing a controller that displays a web view (`UIWebView`, `WKWebView`).
+For instance you can embed a web view into your application by providing a controller that displays a web view (`WKWebView`).
 Then this controller must implement `OAuthSwiftURLHandlerType` to load the URL into the web view
 ```swift
 func handle(_ url: NSURL) {
